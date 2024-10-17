@@ -1,0 +1,105 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%; /* Adjusted to a smaller width for mobile */
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Header styles */
+header {
+    background-color: #112D4E;
+    color: white;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Project section */
+#project .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Image styles */
+.images {
+    display: flex;            /* Use Flexbox for layout */
+    flex-wrap: wrap;         /* Allow images to wrap to the next line */
+    justify-content: center;  /* Center images horizontally */
+}
+
+.images img {
+    width: 300px;            /* Set a smaller width for images */
+    height: auto;            /* Maintain aspect ratio */
+    margin: 10px;            /* Add margin around images */
+}
+
+/* Small and large image */
+
+
+/* Social icons */
+.social-icons i {
+    font-size: 30px;
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-icons i:hover {
+    color: #3b5998; /* Facebook Blue for hover effect */
+}
+
+/* Footer */
+footer {
+    background-color: #112D4E;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    header {
+        padding: 50px 0; /* Adjust header padding for mobile */
+    }
+
+    header h1 {
+        font-size: 28px; /* Smaller font size for mobile */
+    }
+
+    header p {
+        font-size: 16px; /* Smaller paragraph size for mobile */
+    }
+
+    .images img {
+        width: 80px; /* Further reduce image size on mobile */
+    }
+
+    .container {
+        padding: 20px 0; /* Reduce padding for mobile */
+    }
+}
